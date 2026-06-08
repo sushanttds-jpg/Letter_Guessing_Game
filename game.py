@@ -17,7 +17,7 @@ while chances > 0:
         break
 
     inputt = input("Enter what you've guessed :")
-    guess_word = guess_word + inputt
+    guess_word = guess_word + inputt #adds the guessed words
 
     if inputt not in word:
         chances = chances - 1
