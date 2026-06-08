@@ -4,7 +4,7 @@ chances = 3 #used chances variable to give user chances
 
 print("\n======= Welcome To word guessing game =======")
 while chances > 0:
-    show = ""
+    show = "" #stored nothing
     for letter in word:        
         if letter in guess_word:
             show = show + letter
